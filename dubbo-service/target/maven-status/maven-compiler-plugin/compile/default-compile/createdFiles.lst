@@ -1,0 +1,3 @@
+com\wofang\dubbo\mapper\UserInfoMapper.class
+com\wofang\dubbo\service\impl\UserInfoServiceImpl.class
+com\wofang\dubbo\DubboServiceApplication.class

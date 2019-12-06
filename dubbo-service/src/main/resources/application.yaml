@@ -1,0 +1,23 @@
+server:
+  port: 9080
+dubbo:
+  application:
+    name: dubbot-service
+  registry:
+    protocol: zookeeper
+    address: 127.0.0.1:2181
+  #通信规则（通信协议和接口）
+  protocol:
+    name: dubbo
+    port: 20880
+  #连接监控中心
+  monitor:
+    protocol: registry
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://106.14.120.172:3306/aimp?useUnicode=true&characterEncoding=utf8
+    username: aimp
+    password: Aimp@123
