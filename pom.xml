@@ -22,7 +22,7 @@
         <boot-dubbo.version>1.0-SNAPSHOT</boot-dubbo.version>
         <mybatis-plus.version>3.2.0</mybatis-plus.version>
         <dubbo-starter.version>0.2.1.RELEASE</dubbo-starter.version>
-        <dubbo.version>2.6.7</dubbo.version>
+        <dubbo.version>2.6.9</dubbo.version>
         <io-netty.version>5.0.0.Alpha1</io-netty.version>
     </properties>
     <dependencyManagement>
